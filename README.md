@@ -16,5 +16,3 @@ Contact us -> Infos endroits
 
 RSVP
 - adapter
-
-Mailing list -> DEL
