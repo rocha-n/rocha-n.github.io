@@ -3,8 +3,6 @@ Wedding website
 
 TODO:
 
-Bandeau: Home - Gallery - RSVP
-
 Wedding details -> Calendar
 - civil
 - forte
