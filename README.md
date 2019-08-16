@@ -3,12 +3,6 @@ Wedding website
 
 TODO:
 
-Wedding details -> Calendar
-- civil
-- forte
-- brunch
-- lune de miel
-
 Lune de miel -> ADD
 
 Wedding & Ceremonies -> Cadeaux de mariage
