@@ -1,9 +1,7 @@
 # rocha-n.github.io
 Wedding website
 
-TODO:
-
-Lune de miel -> ADD
+TODO:  
 
 Wedding & Ceremonies -> Cadeaux de mariage
 ça fait 12 ans qu'on est ensemble, 8 qu'on habite ensemble -> besoin de rien

@@ -26,10 +26,11 @@
 	5. STORY AREA
 	6. REMAINING TIME
 	7. WEDDING DETAILS AREA
-	8. WEDDING CEREMONY
-	9. CONTACT AREA
-	10. VIEW GALLERY
-	11. FOOTER
+	8. HONEYMOON AREA
+	9. WEDDING CEREMONY
+	10. CONTACT AREA
+	11. VIEW GALLERY
+	12. FOOTER
 
 ====================================================
 
@@ -319,10 +320,17 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 .w-detail .icon{ font-size: 3.5em; line-height: 1; color: #E45F74; }
 
+/* ---------------------------------
+8. HONEYMOON AREA
+--------------------------------- */
 
+.honeymoon-area{ position: relative; z-index: 1; }
+
+.honeymoon-area:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
+	opacity: .8; background: url(../../images/Background_Circle.png); }
 
 /* ---------------------------------
-8. WEDDING CEREMONY
+9. WEDDING CEREMONY
 --------------------------------- */
 
 .ceremony-area{ position: relative; z-index: 1; 
@@ -335,7 +343,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 
 /* ---------------------------------
-9. CONTACT AREA
+10. CONTACT AREA
 --------------------------------- */
 
 .contact-area{ position: relative; overflow: hidden; box-shadow: 1px 10px 40px rgba(0,0,0,.4); }
@@ -349,7 +357,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 
 /* ---------------------------------
-10. VIEW GALLERY
+11. VIEW GALLERY
 --------------------------------- */
 
 .galery-area .gallery-btn{ margin-top: 30px; }
@@ -357,7 +365,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 
 /* ---------------------------------
-11. FOOTER
+12. FOOTER
 --------------------------------- */
 
 footer{ position: relative; z-index: 1; padding-top: 70px; }
