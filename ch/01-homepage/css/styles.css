@@ -249,7 +249,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 --------------------------------- */
 
 .main-slider{ height: 100vh; position: relative; z-index: 1; 
-	background-image: url(../../images/slider-1-1600x900.jpg); background-size: cover; color: #fff; } 
+	background-image: url(../../../images/slider-1-1600x900.jpg); background-size: cover; color: #fff; } 
 
 .main-slider:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; 
 	z-index: -1; background: rgba(0,0,0,.3); }
@@ -270,7 +270,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 .story-area{ position: relative; z-index: 1; }
 
 .story-area:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
-	opacity: .8; background: url(../../images/Background_Circle.png); }
+	opacity: .8; background: url(../../../images/Background_Circle.png); }
 
 
 /* ---------------------------------
@@ -278,7 +278,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 --------------------------------- */
 
 .counter-area{ position: relative; z-index: 1; 
-	background-image: url(../../images/counter-1-1600x600.jpg); background-size: cover; color: #fff; }
+	background-image: url(../../../images/counter-1-1600x600.jpg); background-size: cover; color: #fff; }
 
 .counter-area:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; 
 	z-index: -1; background: rgba(0,0,0,.3); }
@@ -327,14 +327,14 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 .honeymoon-area{ position: relative; z-index: 1; }
 
 .honeymoon-area:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
-	opacity: .8; background: url(../../images/Background_Circle.png); }
+	opacity: .8; background: url(../../../images/Background_Circle.png); }
 
 /* ---------------------------------
 9. WEDDING CEREMONY
 --------------------------------- */
 
 .ceremony-area{ position: relative; z-index: 1; 
-	background-image: url(../../images/counter-1-1600x600.jpg); background-size: cover; color: #fff; }
+	background-image: url(../../../images/counter-1-1600x600.jpg); background-size: cover; color: #fff; }
 
 .ceremony-area:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; 
 	z-index: -1; background: rgba(0,0,0,.3); }
@@ -371,7 +371,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 footer{ position: relative; z-index: 1; padding-top: 70px; }
 
 footer:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
-	opacity: .8; background: url(../../images/Background_Circle.png); }
+	opacity: .8; background: url(../../../images/Background_Circle.png); }
 	
 footer ul > li > a{ padding: 10px 15px; }
 

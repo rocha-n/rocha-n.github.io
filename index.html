@@ -1,20 +1,13 @@
 <html>
 <script>
-$(document).ready(function() {
+
   var winPath = window.location.pathname;
+
   var ploc = winPath + "";
-  if(ploc.indexOf("/en/home") != -1) {
-    $(".lang").prop("href", ploc.replace("/en/home", "/"));
-    $(".lang").text("中文");
+
+  if(ploc.indexOf("wedding/index.html") != -1) {
+     window.location.replace(ploc.replace("/index.html", "/ch/index.html"));
   }
-  else if(ploc.indexOf("/en/") != -1) {
-    $(".lang").prop("href", ploc.replace("/en/", "/"));
-    $(".lang").text("中文");
-  }
-  else if(ploc.indexOf("/") != -1) {
-    $(".lang").prop("href", ploc.replace("/", "/en/"));
-    $(".lang").text("English");
-  }
-});
+
 </script>
 </html>
