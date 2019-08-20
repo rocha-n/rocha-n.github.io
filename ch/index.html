@@ -6,6 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
 	
+	<script>
+	function ChangeLanguage(lang){
+		var winPath = window.location.pathname;
+
+  		var ploc = winPath + "";
+
+		if (lang == 'PT'){
+			if(ploc.indexOf("ch/index.html") != -1) {
+     			window.location.replace(ploc.replace("ch/index.html", "pt/index.html"));
+			}
+		} else if (lang == 'CH'){
+			if(ploc.indexOf("pt/index.html") != -1) {
+     			window.location.replace(ploc.replace("pt/index.html", "ch/index.html"));
+			}
+		}
+	}
+	</script>
 	
 	<!-- Font -->
 	
@@ -39,6 +56,14 @@
 				<li><a href="index.html">HOME</a></li>
 				<li><a href="#">GALLERIE</a></li>
 				<li><a href="02-rsvp.html">RSVP</a></li>
+				<li class="drop-down">
+					<a href="#!">LANGUE<i class="icon icon-caret-down"></i></a>
+ 					<ul class="drop-down-menu">	
+						<li><a href="#" onclick="ChangeLanguage('CH');return false;">FRANCAIS</a></li>	
+						<li><a href="#" onclick="ChangeLanguage('PT');return false;">PORTUGUES</a></li>	
+					</ul>	
+
+ 				</li>
 			</ul><!-- main-menu -->
 			
 		</div><!-- container -->
@@ -284,7 +309,7 @@
 			</ul>
 			
 			<p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Ce template est fait avec <i class="icon-heart" aria-hidden="true"></i> par <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tous droits réservés | Ce template est fait avec <i class="icon-heart" aria-hidden="true"></i> par <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 			
 		</div><!-- container -->
