@@ -13,12 +13,12 @@
   		var ploc = winPath + "";
 
 		if (lang == 'PT'){
-			if(ploc.indexOf("ch/index.html") != -1) {
-     			window.location.replace(ploc.replace("ch/index.html", "pt/index.html"));
+			if(ploc.indexOf("ch/") != -1) {
+     			window.location.replace(ploc.replace("ch/", "pt/"));
 			}
 		} else if (lang == 'CH'){
-			if(ploc.indexOf("pt/index.html") != -1) {
-     			window.location.replace(ploc.replace("pt/index.html", "ch/index.html"));
+			if(ploc.indexOf("pt/") != -1) {
+     			window.location.replace(ploc.replace("pt/", "ch/"));
 			}
 		}
 	}
