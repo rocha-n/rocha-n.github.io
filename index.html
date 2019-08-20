@@ -5,8 +5,10 @@
 
   var ploc = winPath + "";
 
-  if(ploc.indexOf("wedding/index.html") != -1) {
+  if(ploc.indexOf("wedding/index.html") != -1) { //dev
      window.location.replace(ploc.replace("/index.html", "/ch/index.html"));
+  }else{
+    window.location.replace(window.location.pathname + "/ch/");
   }
 
 </script>
