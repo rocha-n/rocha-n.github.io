@@ -7,22 +7,22 @@
 	<meta charset="UTF-8">
 	
 	<script>
-	function ChangeLanguage(lang){
-		var winPath = window.location.pathname;
-
-  		var ploc = winPath + "";
-
-		if (lang == 'PT'){
-			if(ploc.indexOf("ch/index.html") != -1) {
-     			window.location.replace(ploc.replace("ch/index.html", "pt/index.html"));
+			function ChangeLanguage(lang){
+				var winPath = window.location.pathname;
+		
+				  var ploc = winPath + "";
+		
+				if (lang == 'PT'){
+					if(ploc.indexOf("ch/") != -1) {
+						 window.location.replace(ploc.replace("ch/", "pt/"));
+					}
+				} else if (lang == 'CH'){
+					if(ploc.indexOf("pt/") != -1) {
+						 window.location.replace(ploc.replace("pt/", "ch/"));
+					}
+				}
 			}
-		} else if (lang == 'CH'){
-			if(ploc.indexOf("pt/index.html") != -1) {
-     			window.location.replace(ploc.replace("pt/index.html", "ch/index.html"));
-			}
-		}
-	}
-	</script>
+			</script>
 	
 	<!-- Font -->
 	
