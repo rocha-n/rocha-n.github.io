@@ -51,11 +51,19 @@ function countdownTime(){
 	
 	if(isExists('#clock')){
 		$('#clock').countdown('2020/07/11', function(event){
+			if (document.documentElement.lang == 'pt'){
 			var $this = $(this).html(event.strftime(''
-				+ '<div class="time-sec"><span class="title">%D</span> days </div>'
-				+ '<div class="time-sec"><span class="title">%H</span> hours </div>'
+				+ '<div class="time-sec"><span class="title">%D</span> dias </div>'
+				+ '<div class="time-sec"><span class="title">%H</span> horas </div>'
+				+ '<div class="time-sec"><span class="title">%M</span> minutos </div>'
+				+ '<div class="time-sec"><span class="title">%S</span> segundos </div>'));
+			} else {
+				var $this = $(this).html(event.strftime(''
+				+ '<div class="time-sec"><span class="title">%D</span> jours </div>'
+				+ '<div class="time-sec"><span class="title">%H</span> heures </div>'
 				+ '<div class="time-sec"><span class="title">%M</span> minutes </div>'
-				+ '<div class="time-sec"><span class="title">%S</span> seconds </div>'));
+				+ '<div class="time-sec"><span class="title">%S</span> secondes </div>'));
+			}
 		});
 	}
 }
