@@ -8,11 +8,8 @@ Wedding & Ceremonies -> Cadeaux de mariage
 maison plus qu'équipée
 soif de voyages
 
-Our gallery 
-- virer les gens!
-
 Contact us -> Infos endroits
 - Adresses Fort + Maison loc.
 
-RSVP
-- adapter
+Menus  
+- Traductions
