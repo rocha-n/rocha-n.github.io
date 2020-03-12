@@ -11,5 +11,3 @@ soif de voyages
 Contact us -> Infos endroits
 - Adresses Fort + Maison loc.
 
-Menus  
-- Traductions
